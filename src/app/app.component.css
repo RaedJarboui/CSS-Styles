@@ -1,7 +1,12 @@
 header{
     background-color: bisque;
-    margin : 0px
+    text-align: center;
+    margin : 0px;
+   
 
+}
+header h2{
+    padding-bottom:10px;
 }
 h1{
     font-size: 40px;
@@ -16,9 +21,13 @@ h1,h2{
 
 
 }
+a{
+    display:block;
+}
 main p{
     font-size:24px;
     color: grey;
+    display: inline;
 }
 .java{
     font-style: italic;
@@ -32,4 +41,39 @@ a:hover{
 }
 a:active{
     color:green
+}
+.section-html{
+    color:purple;
+    font-weight: bold;
+    font-style:normal;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+.section-js{
+    color:rgb(224, 167, 60);
+    font-size:24px;
+    font-weight:bold;
+    font-style:italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.section-git{
+    color:blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.skills p{
+    margin:0px;
+    border-bottom-style: solid;
+    border-bottom-color: blanchedalmond;
+    border-bottom-width: 3px;
+   
+}
+.skills{
+border-top-width: 3px;
+border-top-style: solid;
+border-top-color: bisque;
+
 }
